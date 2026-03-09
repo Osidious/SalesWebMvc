@@ -276,3 +276,5 @@
 /home/osidious/Estudos/C#/SalesWebMvc/obj/Debug/net8.0/SalesWebMvc.pdb
 /home/osidious/Estudos/C#/SalesWebMvc/obj/Debug/net8.0/SalesWebMvc.genruntimeconfig.cache
 /home/osidious/Estudos/C#/SalesWebMvc/obj/Debug/net8.0/ref/SalesWebMvc.dll
+/home/osidious/Estudos/C#/SalesWebMvc/bin/Debug/net8.0/MySqlConnector.dll
+/home/osidious/Estudos/C#/SalesWebMvc/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll

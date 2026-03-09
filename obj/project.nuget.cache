@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ckbDZy/1O3SN6fczE8aTE/3R2qK/8SZA2jSSds85d6shbhVXBPlPA2duqODK35gu9sFJbyw4oQgQ7xWXkq37FA==",
+  "dgSpecHash": "J2+z1SxxVIwIPehhfsRyqgM1XMCrDnWT0REZ4U7xscl938iUJTrsmaeLqBuDVXnkUrd/aIc3BFC23Gf9U/h06g==",
   "success": true,
   "projectFilePath": "/home/osidious/Estudos/C#/SalesWebMvc/SalesWebMvc.csproj",
   "expectedPackageFiles": [
@@ -117,6 +117,7 @@
     "/home/osidious/.nuget/packages/microsoft.visualstudio.web.codegenerators.mvc/8.0.0/microsoft.visualstudio.web.codegenerators.mvc.8.0.0.nupkg.sha512",
     "/home/osidious/.nuget/packages/microsoft.win32.systemevents/7.0.0/microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "/home/osidious/.nuget/packages/mono.texttemplating/2.3.1/mono.texttemplating.2.3.1.nupkg.sha512",
+    "/home/osidious/.nuget/packages/mysqlconnector/2.3.5/mysqlconnector.2.3.5.nupkg.sha512",
     "/home/osidious/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/osidious/.nuget/packages/nuget.common/6.3.1/nuget.common.6.3.1.nupkg.sha512",
     "/home/osidious/.nuget/packages/nuget.configuration/6.3.1/nuget.configuration.6.3.1.nupkg.sha512",
@@ -127,6 +128,7 @@
     "/home/osidious/.nuget/packages/nuget.projectmodel/6.3.1/nuget.projectmodel.6.3.1.nupkg.sha512",
     "/home/osidious/.nuget/packages/nuget.protocol/6.3.1/nuget.protocol.6.3.1.nupkg.sha512",
     "/home/osidious/.nuget/packages/nuget.versioning/6.3.1/nuget.versioning.6.3.1.nupkg.sha512",
+    "/home/osidious/.nuget/packages/pomelo.entityframeworkcore.mysql/8.0.0/pomelo.entityframeworkcore.mysql.8.0.0.nupkg.sha512",
     "/home/osidious/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "/home/osidious/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
     "/home/osidious/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",

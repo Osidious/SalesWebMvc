@@ -1,18 +1,28 @@
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
-using SalesWebMvc.Models;
+using SalesWebMvc.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// SQLite (works on WSL/Linux)
-builder.Services.AddDbContext<SalesWebMvcContext>(options =>
-    options.UseSqlite("Data Source=saleswebmvc.db"));
-
-// Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connStr = builder.Configuration.GetConnectionString("SalesWebMvcContext");
+
+builder.Services.AddDbContext<SalesWebMvcContext>(options =>
+    options.UseMySql(connStr, new MySqlServerVersion(new Version(8, 0, 45))));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// en-US localization
+var enUS = new CultureInfo("en-US");
+app.UseRequestLocalization(new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture(enUS),
+    SupportedCultures = new List<CultureInfo> { enUS },
+    SupportedUICultures = new List<CultureInfo> { enUS }
+});
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -23,8 +33,6 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
-app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
